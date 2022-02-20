@@ -14,9 +14,9 @@
      limitations under the License.
 -->
 <resources>
-    <color name="default_background">#000</color>
-    <color name="bottom_bar_background">#000</color>
-    <color name="placeholder_background">#171717</color>
+    <color name="default_background">@*android:color/background_floating_device_default_light</color>
+    <color name="bottom_bar_background">@*android:color/background_floating_device_default_light</color>
+    <color name="placeholder_background">@*android:color/accent_device_default_light</color>
 
     <!-- configuration for album set page -->
     <!-- material_grey_900 -->
@@ -24,8 +24,8 @@
     <color name="albumset_placeholder">@color/placeholder_background</color>
     <!-- material_grey_800 -->
     <color name="albumset_label_background">@color/placeholder_background</color>
-    <color name="albumset_label_title">#fff</color>
-    <color name="albumset_label_count">#fff</color>
+    <color name="albumset_label_title">@*android:color/background_floating_device_default_light</color>
+    <color name="albumset_label_count">@*android:color/background_floating_device_default_light</color>
 
     <!-- configuration for album page -->
     <color name="album_background">@color/default_background</color>
@@ -51,13 +51,13 @@
     <!-- FAB -->
     <color name="fab">@color/accent</color>
     <color name="floating_action_button_touch_tint">#F44336</color>
-    <color name="floating_action_button_icon_color">#ffffff</color>
+    <color name="floating_action_button_icon_color">@*android:color/accent_device_default_light</color>
 
-    <color name="primary">#2196F3</color>
+    <color name="primary">@*android:color/accent_device_default_light</color>
     <color name="primary_dark">#1976D2</color>
-    <color name="primary_light">#BBDEFB</color>
+    <color name="primary_light">@*android:color/accent_device_default_light</color>
     <color name="accent">@color/primary</color>
-    <color name="textColor">#ffffff</color>
+    <color name="textColor">@*android:color/background_floating_device_default_light</color>
     <color name="photo_overlay">#66000000</color>
     <color name="details_background">@color/photo_overlay</color>
 
@@ -78,7 +78,7 @@
     <color name="pano_progress_indication">#FF0099CC</color>
     <color name="pano_progress_indication_fast">#FFFF2222</color>
     <color name="mode_selection_border">#777777</color>
-    <color name="holo_blue_light">#ff777777</color>
+    <color name="holo_blue_light">@*android:color/background_floating_device_default_light</color>
     <color name="holo_gray_light">#33999999</color>
     <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
     <color name="bright_foreground_holo_dark">#fff3f3f3</color>
