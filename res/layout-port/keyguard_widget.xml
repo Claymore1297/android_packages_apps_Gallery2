@@ -39,7 +39,6 @@
 
     <ImageView
         android:id="@+id/camera_switcher"
-        style="@style/SwitcherButton"
         android:layout_toStartOf="@id/shutter"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="2dip"
@@ -49,7 +48,6 @@
 
     <ImageView
         android:id="@+id/camera_switcher_ind"
-        style="@style/SwitcherButton"
         android:layout_toStartOf="@id/shutter"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="2dip"

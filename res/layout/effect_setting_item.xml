@@ -15,8 +15,7 @@
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        tools:ignore="UseCompoundDrawables"
-        style="@style/EffectSettingItem">
+	tools:ignore="UseCompoundDrawables">
 
         <ImageView android:id="@+id/image"
                 android:layout_height="@dimen/effect_setting_item_icon_width"
@@ -24,6 +23,5 @@
                 android:layout_gravity="center_horizontal"
                 android:scaleType="fitCenter"
                 android:adjustViewBounds="true" />
-        <TextView android:id="@+id/text"
-                style="@style/EffectSettingItemTitle"/>
+	<TextView android:id="@+id/text"/>
 </LinearLayout>

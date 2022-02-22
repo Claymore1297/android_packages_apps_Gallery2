@@ -23,6 +23,5 @@
     android:paddingEnd="18dp"
     android:singleLine="true"
     android:minHeight="?android:attr/listPreferredItemHeight"
-    style="@style/ActionBarMenuItem"
     android:background="?android:attr/selectableItemBackground"
 />

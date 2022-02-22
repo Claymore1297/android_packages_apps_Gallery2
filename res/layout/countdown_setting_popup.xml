@@ -14,8 +14,7 @@
      limitations under the License.
 -->
 
-<com.android.camera.ui.CountdownTimerPopup xmlns:android="http://schemas.android.com/apk/res/android"
-        style="@style/SettingPopupWindow">
+<com.android.camera.ui.CountdownTimerPopup xmlns:android="http://schemas.android.com/apk/res/android">
 
     <LinearLayout android:orientation="vertical"
             android:background="@color/popup_background"
@@ -24,14 +23,11 @@
 
     <TextView
             android:id="@+id/title"
-            style="@style/PopupTitleText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:gravity="center_vertical|center_horizontal"
             android:minHeight="@dimen/popup_title_frame_min_height" />
-
-    <View style="@style/PopupTitleSeparator" />
 
     <LinearLayout
             android:id="@+id/time_duration_picker"
@@ -70,11 +66,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dip" />
             <LinearLayout
-                android:id="@+id/timer_sound"
-                style="@style/SettingRow" >
+                android:id="@+id/timer_sound">
 
                 <TextView android:id="@+id/beep_title"
-                    style="@style/SettingItemTitle"
                     android:text="@string/pref_camera_timer_sound_title" />
 
                 <CheckBox android:id="@+id/sound_check_box"
@@ -90,7 +84,6 @@
 
             <Button
                 android:id="@+id/timer_set_button"
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

@@ -15,17 +15,13 @@
 -->
 <!-- This layout is shared by phone and tablet in portrait or landscape orientation. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="horizontal"
-        style="@style/UndoBar">
+	android:orientation="horizontal">
     <TextView android:text="@string/deleted"
-            style="@style/UndoBarTextAppearance"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="left|center_vertical" />
-    <View style="@style/UndoBarSeparator" />
     <TextView android:id="@+id/undo_button"
-            style="@style/UndoButton"
             android:text="@string/undo"
             android:drawableStart="@drawable/ic_menu_revert_holo_dark"/>
 </LinearLayout>
